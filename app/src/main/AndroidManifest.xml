@@ -26,6 +26,8 @@
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
             android:launchMode="singleTask"
             android:supportsPictureInPicture="true" />
+
+        <service android:name=".TestService" />
     </application>
 
 </manifest>
